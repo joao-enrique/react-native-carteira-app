@@ -6,7 +6,7 @@ import { Slot } from 'expo-router'
 
 export default function RootLayout() {
   return(
-    <ClerkProvider tokenCache={tokenCache}> 
+    <ClerkProvider tokenCache={tokenCache} publishableKey="pk_test_cmFyZS1mbGFtaW5nby0wLmNsZXJrLmFjY291bnRzLmRldiQ"> 
       <SafeScreen>
         <Slot />
       </SafeScreen>
