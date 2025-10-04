@@ -3,9 +3,9 @@ import { createTransaction, getSummaryByUserId, getTransactionsByUserId } from "
 
 const router = express.Router();
 
-router.get("/:userId", getTransactionsByUserId)
+router.get("/transactions/:userId", getTransactionsByUserId)
 
-router.post("/", createTransaction)
+router.post("/transactions", createTransaction)
 
 router.delete("/:id", createTransaction)
 

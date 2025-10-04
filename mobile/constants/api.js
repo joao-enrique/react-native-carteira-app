@@ -1,0 +1,1 @@
+export const API_URL = "https://react-native-carteira-app-3.onrender.com/api"
