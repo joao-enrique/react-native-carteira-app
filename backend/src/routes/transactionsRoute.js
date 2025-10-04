@@ -1,5 +1,5 @@
 import express from "express"
-import { createTransaction, getSummaryByUserId, getTransactionsByUserId } from "../controllers/transactionsController.js"
+import { createTransaction, getSummaryByUserId, getTransactionsByUserId, deleteTransaction } from "../controllers/transactionsController.js"
 
 const router = express.Router();
 
@@ -7,7 +7,7 @@ router.get("/transactions/:userId", getTransactionsByUserId)
 
 router.post("/transactions", createTransaction)
 
-router.delete("/:id", createTransaction)
+router.delete("/:id", deleteTransaction)
 
 router.get("/summary/:userId", getSummaryByUserId)
 
