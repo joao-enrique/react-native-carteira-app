@@ -2,7 +2,7 @@ import { useCallback } from "react";
 import { useState } from "react"
 import { Alert } from "react-native"
 
-const API_URL = "http://localhost:5001/api"
+const API_URL = "https://react-native-carteira-app-3.onrender.com"
 
 export const useTransactions = (userId) => {
     const [transactions, setTransactions] = useState([]);
