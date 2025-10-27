@@ -2,13 +2,7 @@
 
 <div align="center">
     <a href="https://jedev1.itch.io/controle-de-despesas" target="_blank"> 
-        <img src="preview-for-project.png" alt="Preview da aplicação" /> 
-    </a> 
-</div>
-
-<div align="center">
-    <a href="https://jedev1.itch.io/controle-de-despesas" target="_blank"> 
-        <img src="button.png" alt="Preview da aplicação" /> 
+        <img src="https://i.ibb.co/PvmND5Sk/CONFIRA-O-PROJETO-AQUI-1.png" alt="Preview da aplicação" /> 
     </a> 
 </div>
 
